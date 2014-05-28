@@ -210,7 +210,7 @@ class ExtendedXMLReader
     }
 
     /**
-     *  Call variable defined in XMLReader class
+     *  Returns  variable defined in XMLReader class
      * 
      * @param   string  $name
      * @return  string
