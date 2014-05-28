@@ -210,6 +210,7 @@ class ExtendedXMLReader
     }
 
     /**
+     *  Call mehtods defined in XMLReader class
      * 
      * @param   string  $name
      * @return  string
