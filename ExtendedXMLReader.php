@@ -22,7 +22,6 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-
 use XMLReader;
 
 /**
@@ -174,7 +173,7 @@ class ExtendedXMLReader
     }
 
     /**
-     * XML elements as object
+     * Returns XML elements as object
      * 
      * @return object
      */
@@ -184,7 +183,7 @@ class ExtendedXMLReader
     }
 
     /**
-     * XML elements as array
+     * Returns XML elements as array
      * 
      * @return array
      */
@@ -194,6 +193,7 @@ class ExtendedXMLReader
     }
 
     /**
+     * Call method defined in XMLReader class
      * 
      * @param   string  $name
      * @param   array   $arguments
@@ -210,7 +210,7 @@ class ExtendedXMLReader
     }
 
     /**
-     *  Call mehtods defined in XMLReader class
+     *  Call variable defined in XMLReader class
      * 
      * @param   string  $name
      * @return  string
